@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Se hai bisogno di aiuto vai qui: https://github.com/cjne/ha-myenergi",
+        "data": {
+          "username": "Seriale dell'HUB",
+          "password": "API key / Password"
+        }
+      }
+    },
+    "error": {
+      "auth": "Seriale dell'Hub oppure API key errata.",
+      "connection": "Impossibile connettersi a myenergi, riprova tra poco.",
+      "connection_timeout": "La connessione è andata in timeout, i server potrebbero essere sovraccarichi, riprova tra poco."
+    },
+    "abort": {
+      "single_instance_allowed": "Solo un'instanza singola è consentita."
+    }
+  },
+  "options": {
+    "step": {
+      "user": {
+        "data": {
+          "scan_interval": "Intervallo di aggiornamento (secondi)"
+        }
+      }
+    }
+  }
+}
